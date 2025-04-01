@@ -1,0 +1,84 @@
+/* Aplicación en modo noche */
+.root {
+    -fx-background-color: #2E2E2E;  /* Fondo oscuro */
+    -fx-text-fill: #FFFFFF;         /* Texto blanco */
+    -fx-font-family: "Arial", sans-serif;
+}
+
+/* Estilo para los TextFields */
+.text-field {
+    -fx-background-color: #4A4A4A;  /* Fondo oscuro para los campos de texto */
+    -fx-text-fill: #FFFFFF;         /* Texto blanco */
+    -fx-prompt-text-fill: #CCCCCC;  /* Texto de sugerencia en color gris claro */
+    -fx-border-color: #888888;      /* Borde gris claro */
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+}
+
+/* Estilo para las etiquetas (Label) */
+.label {
+    -fx-text-fill: #FFFFFF;  /* Texto blanco */
+    -fx-font-size: 18px;
+}
+
+/* Estilo base para los botones */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #ba54d3);  /* Para crear un fondo degradado si es necesario */
+    -fx-text-fill: #fff;  /* Color del texto */
+    -fx-font-weight: bold;  /* Negrita */
+    -fx-border-width: 0 0 1px 0;  /* Borde inferior */
+    -fx-border-color: rgba(255, 255, 255, 0.2);  /* Borde inferior con opacidad */
+    -fx-border-radius: 5px;  /* Bordes redondeados */
+    -fx-padding: 10px 20px;  /* Padding del botón */
+    -fx-margin: 0 3px;  /* Margen */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 2, 0, 0, 2);  /* Sombra de texto */
+    -fx-cursor: hand;  /* Cursor de mano */
+    -fx-text-transform: uppercase;  /* Texto en mayúsculas */
+    -fx-transition: all 0.1s;  /* Transición suave */
+}
+
+/* Efecto cuando el botón es presionado */
+.button:pressed {
+    -fx-translate-y: 7px;  /* Efecto de "empujar" el botón hacia abajo */
+}
+
+/* Botón verde */
+.button {
+    -fx-background-color: #589900;  /* Fondo verde */
+    -fx-effect: dropshadow(gaussian, #3a6600, 10, 0, 0, 0);  /* Sombra para el efecto 3D */
+}
+
+/* Efecto cuando el botón verde es presionado */
+.button:pressed {
+    -fx-effect: dropshadow(gaussian, #3a6600, 3, 0, 0, 0);  /* Sombra más sutil al presionar */
+}
+
+
+/* Estilo para el VBox */
+.vbox {
+    -fx-alignment: center;          /* Centrar los elementos en el VBox */
+    -fx-spacing: 20px;              /* Espaciado entre los elementos */
+    -fx-padding: 20px;
+}
+
+/* Estilo para el StackPane */
+.stack-pane {
+    -fx-background-color: #3E3E3E; /* Fondo de un tono intermedio */
+    -fx-padding: 20px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #888888;
+}
+
+
+/* Estilo base para el ComboBox */
+.combo-box {
+    -fx-background-color: #4CAF50; /* Color verde */
+    -fx-text-fill: white; /* Texto blanco */
+    -fx-border-radius: 15px;
+    -fx-padding: 8px 12px;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER_LEFT;
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.5, 2, 2); /* Sombra interior para 3D */
+    -fx-background-insets: 0, 1; /* Sombra externa */
+}
+
