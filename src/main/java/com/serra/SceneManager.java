@@ -13,6 +13,9 @@ import javafx.stage.Stage;
  * La clase <code>SceneManager</code> es responsable de gestionar las escenas de la aplicación JavaFX.
  * Permite cargar, almacenar, cambiar y eliminar escenas. Además, gestiona la asignación de hojas de estilo (CSS)
  * para cada escena y se asegura de que la escena actual se cargue en la ventana principal (Stage).
+ * 
+ * @author Pablo Collar Serradilla
+ * @see <a href="https://github.com/Serra-albarregas">Repositorio en GitHub</a>
  */
 public class SceneManager {
     // Instancia única (singleton) de SceneManager
